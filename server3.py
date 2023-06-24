@@ -192,7 +192,7 @@ def route(path):
 
 
 def read_params(path):
-    """ Read query parameters into a dictionary if they are parseable,
+    """ Read query parameters into a dictionary if they are pauseable,
         otherwise returns None.
     """
     query = path.split('?')
